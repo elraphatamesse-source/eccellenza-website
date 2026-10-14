@@ -6,18 +6,22 @@
 <title>L'Eccellenza – Centre de langue et culture italiennes | Cours d'italien à Yaoundé</title>
 <meta name="description" content="L'Eccellenza, centre de langue et culture italiennes à Yaoundé : cours d'italien, certifications CILS et CERT.IT, traduction et accompagnement visa étudiant pour l'Italie.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://eccellenza-cameroun.com">
+<meta name="theme-color" content="#084D2A">
+<link rel="canonical" href="https://eccellenza.cm">
 <link rel="icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://eccellenza-cameroun.com">
+<meta property="og:url" content="https://eccellenza.cm">
 <meta property="og:title" content="L'Eccellenza – Centre de langue et culture italiennes">
 <meta property="og:description" content="Cours d'italien, certifications, traduction et accompagnement visa étudiant à Yaoundé.">
-<meta property="og:image" content="https://eccellenza-cameroun.com/images/og-image.jpg">
+<meta property="og:image" content="https://eccellenza.cm/media/logo.png">
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="L’Eccellenza – Centre de langue et culture italiennes">
+<meta name="twitter:description" content="Cours d’italien, certifications, traduction et accompagnement pour les études en Italie à Yaoundé.">
+<meta name="twitter:image" content="https://eccellenza.cm/media/logo.png">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"EducationalOrganization","name":"L'Eccellenza","alternateName":"Centre de Langue et Culture Italiennes","url":"https://eccellenza-cameroun.com","logo":"https://eccellenza-cameroun.com/images/logo.png","telephone":["+237693015595","+237653280028"],"address":{"@type":"PostalAddress","streetAddress":"Biyemassi Acacias (immeuble Mercedès)","addressLocality":"Yaoundé","addressRegion":"Centre","addressCountry":"CM"},"geo":{"@type":"GeoCoordinates","latitude":3.848,"longitude":11.502},"openingHours":"Mo-Fr 08:30-16:00","areaServed":"Cameroun","sameAs":["https://www.facebook.com/eccellenzayaounde/","https://wa.me/237693015595"]}
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"L'Eccellenza","alternateName":"Centre de Langue et Culture Italiennes","url":"https://eccellenza.cm","logo":"https://eccellenza.cm/images/logo.png","telephone":["+237693015595","+237653280028"],"address":{"@type":"PostalAddress","streetAddress":"Biyemassi Acacias (immeuble Mercedès)","addressLocality":"Yaoundé","addressRegion":"Centre","addressCountry":"CM"},"geo":{"@type":"GeoCoordinates","latitude":3.848,"longitude":11.502},"openingHours":"Mo-Fr 08:30-16:00","areaServed":"Cameroun","sameAs":["https://www.facebook.com/eccellenzayaounde/","https://wa.me/237693015595"]}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,12 +32,14 @@
 html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{font:400 17px/1.65 'Public Sans',system-ui,sans-serif;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased}
 h1,h2,h3{font-family:'Newsreader',Georgia,serif;font-weight:600;line-height:1.15;letter-spacing:-.01em}
+.skip-link{position:absolute;left:12px;top:-100px;z-index:100;background:var(--green-d);color:#fff;padding:10px 14px;border-radius:6px}
+.skip-link:focus{top:12px}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:4px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
-section{padding:88px 0}
+section{padding:88px 0;scroll-margin-top:84px}
 h2{font-size:clamp(28px,4vw,40px);margin-bottom:16px}
-.btn{display:inline-block;padding:14px 26px;border-radius:6px;font-weight:600;text-decoration:none;border:0;cursor:pointer;font:600 16px 'Public Sans',sans-serif;transition:background .2s}
+.btn{display:inline-block;padding:14px 26px;border-radius:8px;font-weight:600;text-decoration:none;border:0;cursor:pointer;font:600 16px 'Public Sans',sans-serif;transition:background .2s,transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(8,77,42,.12)}
 .btn-red{background:var(--red);color:#fff}.btn-red:hover{background:#A60D26}
 .btn-line{border:1.5px solid var(--green);color:var(--green);background:transparent}.btn-line:hover{background:var(--green);color:#fff}
 header{position:fixed;inset:0 0 auto;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:50}
@@ -53,7 +59,7 @@ nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--green)}
 .hero h1{font-size:clamp(36px,5.4vw,58px);margin-bottom:20px;color:var(--green-d)}
 .hero p.lead{font-size:19px;color:var(--muted);max-width:52ch;margin-bottom:32px}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
-.panel{background:#fff;border:1px solid var(--line);border-top:4px solid var(--green);border-radius:8px;padding:28px}
+.panel{background:#fff;border:1px solid var(--line);border-top:4px solid var(--green);border-radius:12px;padding:28px;box-shadow:0 12px 32px rgba(21,33,27,.05)}
 .panel h3{font-size:20px;margin-bottom:4px}
 .panel>p{font-size:14px;color:var(--muted);margin-bottom:12px}
 .panel li{list-style:none;display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:15px}
@@ -71,7 +77,7 @@ nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--green)}
 .srv ul{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;font-size:15px}
 .srv li::before{content:"✓ ";color:var(--green);font-weight:700}
 .quotes{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:32px}
-blockquote{padding:28px;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:8px;background:#fff}
+blockquote{padding:28px;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:12px;background:#fff;box-shadow:0 8px 24px rgba(21,33,27,.035)}
 blockquote p{font-size:16px;margin-bottom:18px}
 blockquote footer{font-size:14px;color:var(--muted)}blockquote footer b{color:var(--ink);display:block;font-size:15px}
 .contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px}
@@ -93,20 +99,21 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:
  nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;padding:20px 24px;border-bottom:1px solid var(--line);gap:16px}
  nav.open{display:flex}.row{grid-template-columns:1fr}.brand small{display:none}
 }
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Aller au contenu principal</a>
 <header><div class="wrap bar">
  <a class="brand" href="#top"><img src="./media/logo.png" alt="" onerror="this.style.display='none'"><span><b>L'Eccellenza</b><small data-i="tag">Centre de langue et culture italiennes</small></span></a>
  <nav id="nav">
   <a href="#about" data-i="n1">À propos</a><a href="#services" data-i="n2">Services</a><a href="#temoignages" data-i="n3">Témoignages</a><a href="#contact" data-i="n4">Contact</a>
   <div class="lang" role="group" aria-label="Langue"><button data-l="fr" aria-pressed="true">FR</button><button data-l="en" aria-pressed="false">EN</button><button data-l="it" aria-pressed="false">IT</button></div>
  </nav>
- <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+ <button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu de navigation">Menu</button>
 </div></header>
 
-<main id="top">
+<main id="top" tabindex="-1">
 <section class="hero"><div class="wrap">
  <div>
   <h1 data-i="h1">Étudier en Italie commence ici, à Yaoundé</h1>
@@ -160,7 +167,7 @@ footer.site .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:
   <label><span data-i="fs">Service souhaité</span><select name="service" required><option value="" data-i="fo">Choisir un service</option><option value="cours" data-i="s1t">Cours d'italien</option><option value="certification" data-i="s2t">Certifications</option><option value="traduction" data-i="s3t">Traduction</option><option value="visa" data-i="s4t">Assistance visa</option></select></label></div>
   <label><span>Message</span><textarea name="message" rows="4" required></textarea></label>
   <button class="btn btn-red" type="submit" data-i="send">Envoyer le message</button>
-  <div id="fm" role="status" hidden></div>
+  <div id="fm" role="status" aria-live="polite" hidden></div>
  </form>
 </div></section>
 </main>
@@ -175,18 +182,18 @@ const els=[...document.querySelectorAll('[data-i]')];
 T.fr={ok:"Merci ! Nous vous répondrons très bientôt.",ko:"Une erreur est survenue. Veuillez réessayer."};
 els.forEach(e=>{T.fr[e.dataset.i]=e.textContent});
 let lang='fr';
-function setLang(l){lang=l;els.forEach(e=>e.textContent=T[l][e.dataset.i]);document.documentElement.lang=l;
+function setLang(l){if(!T[l])return;lang=l;els.forEach(e=>{const key=e.dataset.i;const translated=T[l][key];if(typeof translated==='string')e.textContent=translated});document.documentElement.lang=l;
  document.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.l===l));
  try{localStorage.setItem('lang',l)}catch(_){}}
 document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>setLang(b.dataset.l));
 try{const s=localStorage.getItem('lang');if(s&&T[s]&&s!=='fr')setLang(s)}catch(_){}
 document.getElementById('yr').textContent=new Date().getFullYear();
 const nav=document.getElementById('nav'),mb=document.getElementById('menu');
-mb.onclick=()=>mb.setAttribute('aria-expanded',nav.classList.toggle('open'));
-nav.querySelectorAll('a').forEach(a=>a.onclick=()=>{nav.classList.remove('open');mb.setAttribute('aria-expanded','false')});
+mb.onclick=()=>{const isOpen=nav.classList.toggle('open');mb.setAttribute('aria-expanded',String(isOpen));mb.setAttribute('aria-label',isOpen?'Fermer le menu de navigation':'Ouvrir le menu de navigation')};
+nav.querySelectorAll('a').forEach(a=>a.onclick=()=>{nav.classList.remove('open');mb.setAttribute('aria-expanded','false');mb.setAttribute('aria-label','Ouvrir le menu de navigation')});
 const f=document.getElementById('cf'),m=document.getElementById('fm');
 f.onsubmit=async e=>{e.preventDefault();const b=f.querySelector('button');b.disabled=true;
- try{const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});
+ m.hidden=true;try{const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});
   if(!r.ok)throw 0;m.className='ok';m.textContent=T[lang].ok;f.reset()}
  catch(_){m.className='ko';m.textContent=T[lang].ko}
  m.hidden=false;b.disabled=false};
